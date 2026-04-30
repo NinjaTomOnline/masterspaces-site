@@ -1,0 +1,16 @@
+{
+  "name": "MasterSpaces",
+  "tagline": "A project site for organizing spaces, ideas, and workflows.",
+  "category": "Tool",
+  "status": "Live",
+  "website": "https://ninjatomonline.github.io/masterspaces-site/",
+  "supportUrl": "",
+  "privacyUrl": "",
+  "appStoreUrl": "",
+  "icon": "https://raw.githubusercontent.com/NinjaTomOnline/masterspaces-site/main/assets/masterspaces-icon.svg",
+  "previewImage": "https://raw.githubusercontent.com/NinjaTomOnline/masterspaces-site/main/assets/masterspaces-preview.svg",
+  "previewImageAlt": "MasterSpaces project preview",
+  "accent": "#7DD3FC",
+  "featured": false,
+  "sortOrder": 210
+}
