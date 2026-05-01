@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Support for MasterSpaces, including Accessibility setup, menu bar recovery, multi-monitor checks, and release-candidate help.">
+  <meta property="og:title" content="Support - MasterSpaces">
+  <meta property="og:description" content="Get help with Accessibility, window snapping, saved layouts, and release-candidate setup.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ninjatomonline.github.io/masterspaces-site/support.html">
+  <meta property="og:image" content="https://ninjatomonline.github.io/masterspaces-site/assets/social-preview.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://ninjatomonline.github.io/masterspaces-site/assets/social-preview.png">
+  <link rel="canonical" href="https://ninjatomonline.github.io/masterspaces-site/support.html">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="stylesheet" href="site.css">
+  <title>Support - MasterSpaces</title>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="MasterSpaces home"><span class="brand-mark">MS</span><span><strong>MasterSpaces</strong><small>macOS window layouts</small></span></a>
+    <nav class="nav" aria-label="Primary"><a href="faq.html">FAQ</a><a href="whats-new.html">What's New</a><a href="press.html">Press</a><a href="support.html" aria-current="page">Support</a><a href="privacy.html">Privacy</a></nav>
+  </header>
+  <main id="main">
+    <section class="page-hero section">
+      <p class="eyebrow">Support</p>
+      <h1>Get unstuck without spelunking through settings.</h1>
+      <p class="lede">For the release candidate, use the distribution channel that provided MasterSpaces or email <a href="mailto:support@masterspaces.app">support@masterspaces.app</a>. Include your macOS version, display setup, and what you were trying to snap or restore.</p>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="eyebrow">First checks</p>
+        <h2>Most setup issues come from permissions or display changes.</h2>
+      </div>
+      <div class="stack">
+        <article class="support-card">
+          <h3>Accessibility is not ready</h3>
+          <p>Open System Settings, grant Accessibility access to MasterSpaces, relaunch the app, then use Refresh Status in onboarding or the menu bar.</p>
+        </article>
+        <article class="support-card">
+          <h3>The menu bar item is open but no utility window appears</h3>
+          <p>Use the menu commands for Settings, Workspace Library, Display Topology, or Tips &amp; Quick Start. Each utility window is guarded as a singleton and should focus instead of duplicating.</p>
+        </article>
+        <article class="support-card">
+          <h3>Snapping feels wrong after moving monitors</h3>
+          <p>Open Display Topology to confirm the app sees the current arrangement. For hands-on QA, capture the monitor arrangement and try side-by-side, stacked, and mixed-resolution layouts.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section support-grid">
+      <article>
+        <h2>Helpful details to send</h2>
+        <ul class="check-list">
+          <li>macOS version and Mac model.</li>
+          <li>Number of displays, their arrangement, and which display held the pointer.</li>
+          <li>Whether Stage Manager was enabled.</li>
+          <li>The snap preset or saved layout you expected.</li>
+          <li>A screenshot of Display Topology if multi-monitor behavior is involved.</li>
+        </ul>
+      </article>
+      <article>
+        <h2>Response expectation</h2>
+        <p>Release-candidate support is best-effort while notarization and clean-machine QA are being completed. Critical launch, permission, or crash reports take priority over feature requests.</p>
+      </article>
+    </section>
+  </main>
+  <footer class="footer"><div><strong>MasterSpaces</strong><p>A direct-download macOS utility for calmer window layouts.</p></div><nav aria-label="Footer"><a href="index.html">Home</a><a href="privacy.html">Privacy</a><a href="faq.html">FAQ</a></nav></footer>
+</body>
+</html>

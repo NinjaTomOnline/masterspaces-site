@@ -1,0 +1,41 @@
+{
+  "appBuild": "1",
+  "appVersion": "0.1.0",
+  "capturedAt": "2026-05-01T10:52:16Z",
+  "captureMethod": "screencapture-window-id",
+  "minimumHeight": 0,
+  "minimumWidth": 0,
+  "result": "passed",
+  "screenshots": [
+    {
+      "dimensionCheck": "passed",
+      "fileName": "menu-bar-panel.png",
+      "height": 1800,
+      "minimumHeight": 0,
+      "minimumWidth": 0,
+      "path": "Release/HostedPages/screenshots/menu-bar-panel.png",
+      "sizeBytes": 453013,
+      "width": 1284
+    },
+    {
+      "dimensionCheck": "passed",
+      "fileName": "onboarding.png",
+      "height": 1627,
+      "minimumHeight": 0,
+      "minimumWidth": 0,
+      "path": "Release/HostedPages/screenshots/onboarding.png",
+      "sizeBytes": 501943,
+      "width": 1800
+    },
+    {
+      "dimensionCheck": "passed",
+      "fileName": "preferences.png",
+      "height": 1343,
+      "minimumHeight": 0,
+      "minimumWidth": 0,
+      "path": "Release/HostedPages/screenshots/preferences.png",
+      "sizeBytes": 380148,
+      "width": 1800
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Frequently asked questions about MasterSpaces, Accessibility permission, multi-monitor snapping, pricing, and current release limits.">
+  <meta property="og:title" content="FAQ - MasterSpaces">
+  <meta property="og:description" content="Answers about permissions, layouts, workspaces, multi-monitor support, pricing, and current limits.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ninjatomonline.github.io/masterspaces-site/faq.html">
+  <meta property="og:image" content="https://ninjatomonline.github.io/masterspaces-site/assets/social-preview.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://ninjatomonline.github.io/masterspaces-site/assets/social-preview.png">
+  <link rel="canonical" href="https://ninjatomonline.github.io/masterspaces-site/faq.html">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="stylesheet" href="site.css">
+  <title>FAQ - MasterSpaces</title>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="MasterSpaces home"><span class="brand-mark">MS</span><span><strong>MasterSpaces</strong><small>macOS window layouts</small></span></a>
+    <nav class="nav" aria-label="Primary"><a href="faq.html" aria-current="page">FAQ</a><a href="whats-new.html">What's New</a><a href="press.html">Press</a><a href="support.html">Support</a><a href="privacy.html">Privacy</a></nav>
+  </header>
+  <main id="main">
+    <section class="page-hero section">
+      <p class="eyebrow">FAQ</p>
+      <h1>The practical questions before giving a window manager Accessibility access.</h1>
+    </section>
+
+    <section class="section faq-list">
+      <article><h2>Why does MasterSpaces need Accessibility?</h2><p>macOS requires Accessibility permission for apps that read, move, or resize other app windows. MasterSpaces uses it for snapping, saved layouts, restore flows, and display-aware placement.</p></article>
+      <article><h2>Does MasterSpaces manage native Spaces?</h2><p>No. The current release observes display topology and active-space changes through public APIs, but it does not create, delete, or control native macOS Spaces.</p></article>
+      <article><h2>Does it work with multiple monitors?</h2><p>Yes, the current MVP includes orientation-aware snapping, display topology inspection, and drag-to-edge target selection based on the pointer display. Final release sign-off still requires clean-machine multi-monitor QA.</p></article>
+      <article><h2>Does MasterSpaces send layout data anywhere?</h2><p>No. Layouts, workspaces, tips, and preferences are stored locally in the current release candidate. Export/import is manual.</p></article>
+      <article><h2>Is there an App Store version?</h2><p>Not in the current release. This milestone is built for direct-download distribution with Developer ID signing and notarization.</p></article>
+      <article><h2>What is the pricing?</h2><p>The public pricing model is still being finalized. Internal planning includes free and Pro concepts, but this site avoids presenting unfinished tiers as launch terms.</p></article>
+    </section>
+  </main>
+  <footer class="footer"><div><strong>MasterSpaces</strong><p>A direct-download macOS utility for calmer window layouts.</p></div><nav aria-label="Footer"><a href="index.html">Home</a><a href="support.html">Support</a><a href="privacy.html">Privacy</a></nav></footer>
+</body>
+</html>

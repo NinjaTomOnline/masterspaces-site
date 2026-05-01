@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">MasterSpaces icon</title>
+  <desc id="desc">A stylized multi-monitor map mark with the letters MS.</desc>
+  <rect width="64" height="64" rx="16" fill="#173a4f"/>
+  <path d="M11 20c0-3.3 2.7-6 6-6h30c3.3 0 6 2.7 6 6v24c0 3.3-2.7 6-6 6H17c-3.3 0-6-2.7-6-6V20Z" fill="#f7efe3"/>
+  <path d="M17 24h12v9H17v-9Zm18 0h12v9H35v-9ZM17 38h30v6H17v-6Z" fill="#173a4f"/>
+  <path d="M30.5 34.5h3M32 33v3" stroke="#c77b42" stroke-width="2" stroke-linecap="round"/>
+</svg>
